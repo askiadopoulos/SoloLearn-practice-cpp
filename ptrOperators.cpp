@@ -1,32 +1,44 @@
-
-/* This simple function demonstrates how to use variable pointers through 3
- * different scenarios (A, B and C).
+﻿/* 
+ * File:   ptrOperators.cpp
+ * Author: a.skiadopoulos
+ *
+ * Created on 23 February 2018, 23:50 pm
+ * 
+ * 
+ * This simple function demonstrates how to use variable pointers through
+ * 3 different scenarios (A, B and C).
+ *
  * In scenario (A), we used an integer (a) of which we stored the “address of”
  * into a pointer (*ptr_a) and assign the initial value 5.
- * In scenario (B), we store the address of the variable (b) into the pointer (*ptr_b).
- * Then we store the value 10 at the variable where the pointer is pointing to
- * (variable b in this case).
- * In scenario C, we use 2 different variables (c, d) and one pointer (*ptr_c)
- * 
- * The asterisk sign (*) or dereference operator is used to get the
- * "value pointed by" a pointer.
- * The ampersand sign (&) or reference operator is used to get the
- * "address of" a variable. */
+ * In scenario (B), we store the address of the variable (b)
+ * into the pointer (*ptr_b).
+ * Then we store the value 10 at the variable where the pointer
+ * is pointing to (variable b in this case).
+ * In scenario C, we use 2 different variables (c, d) and one pointer (*ptr_c).
+ *
+ * Notice:
+ * The asterisk sign (*) or dereference operator is used to get
+ * the "value pointed by" a pointer.
+ * The ampersand sign (&) or reference operator is used to get
+ * the "address of" a variable.
+ */
 
-/* library import */
-#include <iostream>
+/* System | User-Defined Headers | Predefined Library Functions */
+#include "sololearn.h" //declare sololearn header
+#include <iostream> //Standard Input/Output Stream
 
-/* namespace(s) definition */
-using namespace std;
+/* Built-in C++ Library Routines (standard namespace)  */
+using::std::cout;
+using::std::endl;
 
-/* function content */
+/* Definition of function ptrOperators() */
 void ptrOperators()
 {
-    /* Pointer Operators - Scenario (A) and (B) */
+    /* Pointer Operators | Scenario (A) & (B) */
     
-    /* local variable(s) - pointer(s) definition */
-    int a = 5;//scenario (A)
-    int b;//scenario (B)
+    /* Local Variable(s) & Pointer(s) declaration */
+    int a = 5; //scenario (A)
+    int b; //scenario (B)
     
     /* An untyped pointer (e.g.void) cannot be directly dereferenced
      * because it is not pointing at a specific type.
@@ -42,8 +54,8 @@ void ptrOperators()
     /* Initialization of pointer(s) before first use */
     /* Stores the address of the variable (x, y) in the pointer (ptr_x, ptr_y) */
     
-    ptr_a = &a;//scenario A
-    ptr_b = &b;//scenario B
+    ptr_a = &a; //scenario A
+    ptr_b = &b; //scenario B
     *ptr_b = 10;
     
     cout << "\nScenario (A) and (B)" << endl;
@@ -66,9 +78,9 @@ void ptrOperators()
          << &ptr_a << ", " << &ptr_b <<"\n\n\n";
     
     
-    /* Pointer Operators - Scenario (C) */
+    /* Pointer Operators | Scenario (C) */
     
-    /* local variable(s) - pointer(s) definition */
+    /* Local variable(s) & Pointer(s) declaration */
     int c = 7;
     int d = 17;
     
@@ -99,7 +111,7 @@ void ptrOperators()
         }
         if(d > c){
             cout << "The value of variable (d) is: " << d << endl;
-            *ptr_c -= d;//this stores a negative sign number as the value pointed by the pointer
+            *ptr_c -= d; //this stores a negative sign number as the value pointed by the pointer
         }
         if(d%c != 0 && c < 0){
             cout << "The value of variable (c) using pointer's dereference"

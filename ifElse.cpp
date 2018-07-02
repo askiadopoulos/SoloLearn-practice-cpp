@@ -1,15 +1,25 @@
+/* 
+ * File:   ifElse.cpp
+ * Author: a.skiadopoulos
+ *
+ * Created on 23 February 2018, 22:50 pm
+ * 
+ * 
+ * This simple function demonstrates how to use the if-else statement within
+ * a basic program that accepts a student's score and then compares it with
+ * several constants to give the desired results.
+ */
 
-/* This simple function demonstrates how to use the if-else statement within a
- * basic program that accepts a student's score and then compares it with several
- * constants to give the desired results. */
+/* System | User-Defined Headers | Predefined Library Functions */
+#include "sololearn.h" //declare sololearn header
+#include <iostream> //Standard Input/Output Stream
 
-/* library import */
-#include <iostream>
+/* Built-in C++ Library Routines (standard namespace)  */
+using::std::cin;
+using::std::cout;
+using::std::endl;
 
-/* namespace(s) definition */
-using namespace std;
-
-/* function content */
+/* Definition of function ifElse() */
 void ifElse()
 {
     int x;

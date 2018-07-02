@@ -1,17 +1,25 @@
-
-/* This simple function demonstrates how to use variable pointers by increasing 
- * their values with different technics and finally print them on screen.
+/* 
+ * File:   ptrArrays.cpp
+ * Author: a.skiadopoulos
+ *
+ * Created on 23 February 2018, 23:20 pm
  * 
- * The asterisk sign (*) or dereference operator is used to get the
- * "value pointed by" a pointer. */
+ * 
+ * This simple function demonstrates how to use variable pointers by increasing
+ * their values with different technics and finally print them on screen.
+ *
+ * The asterisk sign (*) or dereference operator is used
+ * to get the "value pointed by" a pointer.
+ */
 
-/* library import */
-#include <iostream>
+/* Prototype for function printS() | Function Overloading */
+#include "sololearn.h" //declare sololearn header
+#include <iostream> //Standard Input/Output Stream
 
-/* namespace(s) definition */
-using namespace std;
+/* Built-in C++ Library Routines (standard namespace)  */
+using::std::cout;
 
-/* function content */
+/* Definition of function ptrArrays() */
 void ptrArrays()
 {
     int num[5];
