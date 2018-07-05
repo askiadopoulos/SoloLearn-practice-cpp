@@ -30,16 +30,16 @@ void ifElse()
     }while(x<0 || x>20);
 
     if(x>=0 && x<10){
-        cout << "\nGrade below base. You failed!\n";
+        cout << "\nStudent grade below base (<10). Failed to pass!\n";
     }
     else if(x>=10 && x<=15){
-        cout << endl << "Grade above base. You passed!" << endl;
+        cout << endl << "Student grade above base (10+). Passed!" << endl;
     }
     else if(x>15 && x<=18){
-        cout << "\nYou passed with superior grade!\n";
+        cout << "\nPassed with a very good grade!\n";
     }
     else if(x>18 && x<=20){
-        cout << endl << "Congratulations! You achieved an ultimate grade!"
+        cout << endl << "Congratulations! You achieved an excellent grade!"
              << endl;
     }
     else{
