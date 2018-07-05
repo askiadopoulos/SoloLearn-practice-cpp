@@ -4,6 +4,11 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>bankAccount.h</itemPath>
+      <itemPath>constructors.h</itemPath>
+      <itemPath>encapsulation.h</itemPath>
+      <itemPath>mathOperations.h</itemPath>
+      <itemPath>sololearn.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,14 +17,21 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>WhileLoops.cpp</itemPath>
       <itemPath>arrInit.cpp</itemPath>
       <itemPath>arrSum.cpp</itemPath>
+      <itemPath>bankAccount.cpp</itemPath>
+      <itemPath>constructors.cpp</itemPath>
+      <itemPath>doWhile.cpp</itemPath>
+      <itemPath>encapsulation.cpp</itemPath>
       <itemPath>getPercentage.cpp</itemPath>
       <itemPath>ifElse.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
+      <itemPath>mathOperations.cpp</itemPath>
+      <itemPath>printS.cpp</itemPath>
       <itemPath>ptrArrays.cpp</itemPath>
       <itemPath>ptrOperators.cpp</itemPath>
+      <itemPath>recursion.cpp</itemPath>
+      <itemPath>swapNums.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -43,11 +55,23 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="WhileLoops.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="arrInit.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="arrSum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bankAccount.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bankAccount.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="constructors.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="constructors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="doWhile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="encapsulation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="encapsulation.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="getPercentage.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -55,9 +79,21 @@
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="mathOperations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mathOperations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="printS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="ptrArrays.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ptrOperators.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="recursion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sololearn.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="swapNums.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -80,11 +116,23 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="WhileLoops.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="arrInit.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="arrSum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bankAccount.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bankAccount.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="constructors.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="constructors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="doWhile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="encapsulation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="encapsulation.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="getPercentage.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -92,9 +140,21 @@
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="mathOperations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="mathOperations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="printS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="ptrArrays.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ptrOperators.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="recursion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sololearn.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="swapNums.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>
