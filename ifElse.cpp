@@ -1,10 +1,10 @@
-/* 
+/*
  * File:   ifElse.cpp
  * Author: a.skiadopoulos
  *
  * Created on 23 February 2018, 22:50 pm
- * 
- * 
+ *
+ *
  * This simple function demonstrates how to use the if-else statement within
  * a basic program that accepts a student's score and then compares it with
  * several constants to give the desired results.
@@ -25,7 +25,7 @@ void ifElse()
     int x;
 
     do{
-        cout << "\nGive your grade: ";
+        cout << "\nEnter student grade: ";
         cin >> x;
     }while(x<0 || x>20);
 
